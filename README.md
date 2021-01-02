@@ -5,7 +5,7 @@ January 2nd, 2021
 Bikeshare
 
 ### Description
-Provides information of a bikeshare service in three different cities in the USA (Chicago, NYC, Washington).
+Provides information of a bikeshare service in three different cities in the USA (Chicago, NYC, Washington) using an interactive program.
 
 ### Files used
 bikeshare.py
