@@ -176,7 +176,7 @@ def main():
             initial_row += 5
             last_row += 5
 
-        restart = input('\nIf you would like to restart please type "yes"\n').lower()
+        restart = input('\nIf you would like to restart please type "yes", otherwise have a good day!\n').lower()
         if restart != 'yes':
             break
 
