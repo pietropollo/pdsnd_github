@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
+              'nyc': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
 def get_filters():
@@ -17,9 +17,9 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = input("Would you like to see data for Chicago, New York City, or Washington?\n").lower()
-    while city not in ["chicago", "new york city", "washington"]:
-        city = input("Invalid response! Please choose only one of the following: Chicago, New York City, or Washington\n").lower()
+    city = input("Would you like to see data for Chicago, NYC, or Washington?\n").lower()
+    while city not in ["chicago", "nyc", "washington"]:
+        city = input("Invalid response! Please choose only one of the following: Chicago, NYC, or Washington\n").lower()
 
     # get user input for month (all, january, february, ... , june)
     month = input("What month would you like information about? Choose from january to june (please type 'all' to get all months)\n").lower()
